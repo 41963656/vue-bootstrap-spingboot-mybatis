@@ -1,0 +1,25 @@
+server:
+  port: @server.port@
+  session:
+    timeout: 30
+  tomcat:
+    max-threads: 0
+    uri-encoding: UTF-8
+  context-path: @server.contextPath@
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n" 
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n" 
+  file: ./logs/bizfuse_app.log
+  level:
+    root: info
+    com.leadingsoft.app: debug
+    org.springframework: error
+mybatis:
+  type-aliases-package: com.leadingsoft.app.entity
+spring:
+  datasource:
+    driver-class-name: @datasource.driver@
+    url: @datasource.url@
+    username: @datasource.username@
+    password: @datasource.password@

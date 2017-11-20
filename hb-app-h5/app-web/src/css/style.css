@@ -1,0 +1,432 @@
+.page {
+    background-color: #f8f8f8;
+}
+
+table.table-full {
+    width: 100%;
+}
+
+.table-full td {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.span-text-center {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.row {
+    display: table;
+    width: 100%;
+}
+
+.col-sm-1 {
+    width: 8.3333333%;
+    padding: 0em 0.5em 0em 0.5em;
+    box-sizing: border-box;
+    float: left;
+}
+
+.col-sm-2 {
+    width: 16.66666666667%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-3 {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-4 {
+    width: 33.33333333333333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-5 {
+    box-sizing: border-box;
+    width: 41.666666666%;
+    float: left;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-6 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-7 {
+    float: left;
+    width: 58.33333333333333333%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-8 {
+    float: left;
+    width: 66.6666667%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-9 {
+    float: left;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-10 {
+    float: left;
+    width: 89.33333333333333333%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-11 {
+    float: left;
+    width: 91.666666666667%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-sm-12 {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-1 {
+    width: 8.3333333%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.col-md-2 {
+    width: 16.66666666667%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-md-3 {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-4 {
+    width: 33.33333333333333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-5 {
+    box-sizing: border-box;
+    width: 41.666666666%;
+    float: left;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-6 {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-7 {
+    float: left;
+    width: 58.33333333333333333%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-8 {
+    box-sizing: border-box;
+    width: 66.6666667%;
+    float: left;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-9 {
+    float: left;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-10 {
+    float: left;
+    width: 83.333333333333333%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-11 {
+    float: left;
+    width: 91.66666666666%;
+    box-sizing: border-box;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.col-md-12 {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding: 0em 0.5em 0em 0.5em;
+}
+
+.weui_cell_hd img {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.nav-bar {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blue-opacity {
+    background-image: url("/images/beij.png");
+}
+
+.blue-tint {
+    background-color: rgb(63, 110, 166);
+}
+
+.nav-bar {
+    margin-top: 0.2em;
+}
+
+.nav-bar li {
+    float: left;
+    list-style: none;
+    border: solid 0.1em #002880;
+    width: 8em;
+    text-align: center;
+}
+
+.nav-bar li:first-child {
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+.nav-bar li:last-child {
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+.nav-bar li.active {
+    background-color: #002880;
+}
+
+.header {
+    padding-top: .5em;
+}
+
+.heck-span {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.heck-span_ {
+    font-size: 0.8em;
+}
+
+.g_background {
+    background-color: #4cd964;
+}
+
+.r-heck-span {
+    font-size: 2.0em;
+    font-weight: bolder;
+}
+
+.heck-span-one {
+    display: block;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.heck-span-two {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.g_0 {
+    background-color: #999999;
+}
+
+.g_1 {
+    background-color: #00e400;
+    color: #000000;
+}
+
+.g_2 {
+    background-color: #ffff00;
+    color: #000000;
+}
+
+.g_3 {
+    background-color: #ff7e00;
+    color: #FFFFFF;
+}
+
+.g_4 {
+    background-color: #ff0000;
+    color: #FFFFFF;
+}
+
+.g_5 {
+    background-color: #99004c;
+    color: #FFFFFF;
+}
+
+.g_6 {
+    background-color: #7e0023;
+    color: #FFFFFF;
+}
+
+.grade_g {
+    width: 0.5em;
+    height: 1em;
+    margin-top: 0.3em
+}
+
+.grade_f {
+    font-size: 0.9em;
+}
+
+.grade_div {
+    margin-top: 1em;
+}
+
+table.table-order tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+.table-explan {
+    border-collapse: collapse;
+}
+
+.table-explan tr {
+    margin: 0;
+}
+
+.table-explan td {
+    font-size: 0.3em;
+    margin: 0;
+    border: solid 0.1em #cccccc;
+}
+
+.b-white {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.table-dataTables-wrapper {
+    background-color: rgb(60, 110, 150);
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+.mark {
+    border-radius: 50%;
+    padding: 0.5em;
+    display: inline-block;
+    font-size: 0.7em;
+    width: 2em;
+    height: 2em;
+    float: right;
+    line-height: 2em;
+}
+
+.background-black {
+    background: black;
+}
+
+.table-opacity {
+    opacity: 0.5;
+}
+
+.table-opacity-view {
+    opacity: 0.9;
+}
+
+.table-rd-width-4 {
+    width: 30%;
+}
+
+.table-rd-width-6 {
+    width: 70%;
+}
+
+.height-width {
+    margin: 0 auto;
+    height: 1em;
+    width: 1em;
+}
+
+.table-font-weight {
+    font-weight: bold;
+}
+
+.lengendbox {
+    display: block;
+    font-size: 0.7em;
+    background-color: rgba(22, 13, 52, 0.26);
+    margin-bottom: 0.5em;
+}
+
+.lengend {
+    width: 1.2em;
+    height: 1.2em;
+    float: right;
+    margin-bottom: 0.5em;
+}
+
+.arrow-rigth {
+
+    content: " ";
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 5px;
+    width: 5px;
+    border-width: 2px 2px 0 0;
+    border-color: #c8c8cd;
+    border-style: solid;
+    position: relative;
+    top: -1px;
+}
+
+.power {
+    color: #CCCCCC;
+    display: none;
+}
+

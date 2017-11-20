@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>样例列表1</title>
+    <link rel="stylesheet" href="/bower_components/weui/dist/style/weui.min.css"/>
+    <link rel="stylesheet" href="/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+<div style="height: 0;overflow: hidden;"><img src="/images/logo.png"></div>
+<div id="page">
+    <div class="weui_tab">
+
+        <div class="weui_tab_bd">
+            <div id="tabTime" class="weui_tab_bd_item weui_tab_bd_item_active">
+
+                <div>
+                    <h4 class="text-center">
+                        <span>DEMO列表</span>
+                    </h4>
+                    <h5 class="text-center" style="color: #BBBBBB;font-weight: normal;">实时发布数据为未审核数据，仅供参考</h5>
+                </div>
+                <div id="domes">
+                    <table class="table-full table-order table_tj">
+                        <thead>
+                        <tr>
+                            <th>名称</th>
+                            <th>性别</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr v-for="item in demoPanel.data">
+                            <td v-text="item.name"></td>
+                            <td v-text="item.sex"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-right power"> power by LeadingSoft</div>
+    </div>
+</div>
+<script src="/bower_components/requirejs/require.js" data-main="/js/demo.js"></script>
+</body>
+</html>
